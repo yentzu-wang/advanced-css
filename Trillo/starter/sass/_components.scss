@@ -34,7 +34,7 @@
     }
   }
 
-  &__input:focus + &__button {
+  &__input:focus+&__button {
     background-color: var(--color-grey-light-3);
   }
 
@@ -64,7 +64,7 @@
   display: flex;
   align-items: center;
 
-  & > * {
+  &>* {
     padding: 0 2rem;
     cursor: pointer;
     height: 100%;
@@ -72,7 +72,7 @@
     align-items: center;
   }
 
-  & > *:hover {
+  &>*:hover {
     background-color: var(--color-grey-light-2);
   }
 
@@ -186,7 +186,7 @@
 .overview {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--color-grey-light-2);
+  border-bottom: var(--line);
 
   &__heading {
     font-size: 2.25rem;
